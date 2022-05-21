@@ -1,0 +1,32 @@
+.navsHolder {
+    display: flex;
+    justify-items: center;
+    position: fixed;
+    width: 100vw;
+}
+.mainNav {
+    width: 50%;
+    height: 3rem;
+    background-color: #4D4C7D;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navA {
+    width: 9rem;
+    color: #E9D5DA;
+    text-decoration: none;
+    align-self: center;
+    text-align: center;
+}
+.navA:hover {
+    background: #E9D5DA;
+    color: #363062;
+}
+.navP {
+    margin-left: 5px;
+    margin-right: 5px;
+    align-self: center;
+}
+.navSelected {
+    background-color: #827397;
+}

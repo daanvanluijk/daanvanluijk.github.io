@@ -1,0 +1,60 @@
+html {
+    scroll-snap-type: y mandatory;
+}
+.content {
+    max-width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.summary {
+    scroll-snap-align: center;
+    text-align: center;
+    color: var(--primary);
+    height: 100vh;
+    max-width: 60%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.gamescreenshots {
+    scroll-snap-align: center;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+.gamescreenshotsholder {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    flex-flow: wrap;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.gamescreenshotsholder img {
+    max-width: 25rem;
+    max-height: 25rem;
+    object-fit: cover;
+}
+.gameplayvideo {
+    scroll-snap-align: center;
+    height: 100vh;
+    max-width: 85%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.gameplayvideo video {
+
+}
+
+:root {
+    --primary:#E9D5DA;
+}
