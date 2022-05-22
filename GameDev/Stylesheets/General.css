@@ -34,7 +34,7 @@ html {
     color: var(--primarylight);
 }
 .gamescreenshotsholder {
-    width: 60vw;
+    width: 95vw;
     margin-top: 0;
     margin-bottom: 0;
     display: flex;
@@ -44,9 +44,10 @@ html {
     align-items: center;
 }
 .gamescreenshotsholder img {
-    max-width: 40vh;
+    margin: 1rem;
+    max-width: 60vh;
     max-height: 40vh;
-    object-fit: cover;
+    object-fit: contain;
 }
 .gameplayvideo {
     padding-top: 3rem;
