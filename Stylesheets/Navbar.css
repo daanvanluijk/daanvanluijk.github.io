@@ -17,6 +17,7 @@
     text-decoration: none;
     align-self: center;
     text-align: center;
+    height: 100%;
 }
 .navA:hover {
     background: #E9D5DA;

@@ -40,10 +40,23 @@
             Het idee is toen ontstaan om de kogels te vervangen door tennisballen en de speler een tennisraket te geven.<br>
             Hierdoor moet de speler zich verplicht in de gevarenzone begeven om damage te doen.<br>
             <br>
-            In dit project wordt heel veel gebruik gemaakt van finite state machines om de enemmy ai aan te sturen.
+            In dit project wordt gebruik gemaakt van finite state machines om de enemmy ai aan te sturen. <br>
+            Zo is de boot-vijand opgedeeld in twee grote fases en dus states. In de eerste fase zijn er twee states:<br>
+            Eerst schiet de boot een aantal seconden lang kanonskogels/tennisballen richting de speler. <br>
+            Wanneer de tijd op is, gaat de boot over naar het schieten van één bom. <br>
+            Zodra dat gebeurt gaat het automatisch terug over naar de eerste staat. <br>
+            <br>
+            De AI van de rode vijanden is gebaseerd op afstand en zichtbaarheid van de speler. <br>
+            De melee enemies hebben drie states: patrouilleren, achtervolgen en aanvallen. <br>
+            Tijdens het patrouilleren gebruikt de AI A* pathfinding om een pad van waypoints te volgen. <br>
+            De andere states worden geactiveerd op basis van afstand <br>
+            Voor de ranged AI is er een andere state dan het achtervolgen. Deze state heet: "repositioneren". <br>
+            Hier gaat de AI de dichtstbijzijnde plaats zoeken waar de speler in het zicht is en de afstand niet buiten
+            een bepaalde lengte valt.<br>
         </p>
     </div>
     <div class="gamescreenshots">
+        <h1>Screenshots</h1>
         <div class="gamescreenshotsholder">
             <img src="../../Assets/Screenshots/TENNIS GAME BOOT.png" height="728" width="870"
                  alt="Screenshot van een boot met kanonnen"/>
@@ -56,9 +69,17 @@
         </div>
     </div>
     <div class="gameplayvideo">
-        <video controls>
-            <source src="../../Assets/Videos/Tennis%20Game%20Gameplay.mp4" type="video/mp4">
-        </video>
+        <h1>Videos</h1>
+        <iframe width="100%" height="80%" src="https://www.youtube.com/embed/pZHKJaEcFS4" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </div>
+    <div class="gameplayvideo">
+        <iframe width="100%" height="85%" src="https://www.youtube.com/embed/pcM8lY9TBRU" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
     </div>
 </div>
 </body>
