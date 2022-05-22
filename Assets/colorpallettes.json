@@ -10,5 +10,23 @@
     "primarydark" : "#874356",
     "secondarylight" : "#F68989",
     "secondarydark" : "#C65D7B"
+  },
+  {
+    "primarylight" : "#FCECDD",
+    "primarydark" : "#FF6701",
+    "secondarylight" : "#FFC288",
+    "secondarydark" : "#FEA82F"
+  },
+  {
+    "primarylight" : "#D8E9A8",
+    "primarydark" : "#191A19",
+    "secondarylight" : "#4E9F3D",
+    "secondarydark" : "#1E5128"
+  },
+  {
+    "primarylight" : "#FADCAC",
+    "primarydark" : "#065446",
+    "secondarylight" : "#158467",
+    "secondarydark" : "#197163"
   }
 ]
