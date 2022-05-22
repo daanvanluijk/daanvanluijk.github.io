@@ -1,29 +1,4 @@
-html {
-    scroll-snap-type: y proximity;
-}
-.content {
-    max-width: 100vw;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-}
-.summary {
-    scroll-snap-align: center;
-    text-align: center;
-    color: var(--primarylight);
-    min-height: 100vh;
-    max-width: 60%;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-}
 .gamescreenshots {
-    padding-top: 3rem;
-    scroll-snap-align: start;
-    min-height: 100vh;
     display: flex;
     flex-flow: column;
     justify-items: center;
@@ -50,9 +25,6 @@ html {
     object-fit: contain;
 }
 .gameplayvideo {
-    padding-top: 3rem;
-    scroll-snap-align: start;
-    height: 100vh;
     min-width: 80%;
     display: flex;
     flex-flow: column;
@@ -63,13 +35,5 @@ html {
     color: var(--primarylight);
 }
 .gameplayvideo iframe {
-    max-width: 100%;
     margin: 0 auto;
-}
-
-:root {
-    --primarylight:#E9D5DA;
-    --primarydark:#363062;
-    --secondarylight:#827397;
-    --secondarydark:#4D4C7D;
 }

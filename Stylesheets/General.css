@@ -5,4 +5,57 @@ body {
     margin: 0;
     background: #363062;
 }
+.content {
+    padding-top: 3rem;
+    max-width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.sectieTitel {
+    color: var(--primarylight);
+}
+.summary {
+    text-align: center;
+    color: var(--primarylight);
+    max-width: 60%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding-bottom: 6rem;
+}
+.redirects {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+.redirect {
+    margin: 2rem;
+}
+.redirect h3 {
+    text-align: center;
+    color: var(--primarylight);
+}
+.redirect h3:hover {
+    cursor: pointer;
+    color: var(--secondarylight);
+}
+.redirect img {
+    height: 30vh;
+    width: 30vh;
+    object-fit: cover;
+}
+.redirect img:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
 
+:root {
+    --primarylight:#E9D5DA;
+    --primarydark:#363062;
+    --secondarylight:#827397;
+    --secondarydark:#4D4C7D;
+}
