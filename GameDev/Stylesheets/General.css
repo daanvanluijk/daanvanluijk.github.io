@@ -22,7 +22,7 @@
     margin: 1rem;
     max-width: 60vh;
     max-height: 40vh;
-    object-fit: contain;
+    object-fit: cover;
 }
 .gameplayvideo {
     min-width: 80%;

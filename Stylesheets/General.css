@@ -3,7 +3,7 @@ html {
 }
 body {
     margin: 0;
-    background: #363062;
+    background: var(--primarydark);
 }
 .content {
     padding-top: 3rem;
