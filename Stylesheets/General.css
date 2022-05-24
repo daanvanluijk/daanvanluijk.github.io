@@ -38,6 +38,9 @@ p {
     justify-content: center;
     padding-bottom: 6rem;
 }
+.summary img {
+    margin: auto;
+}
 .redirects {
     display: flex;
     flex-flow: wrap;
