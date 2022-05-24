@@ -1,12 +1,18 @@
 html {
     margin: 0;
+    font-family: Arial;
 }
 body {
     margin: 0;
     background: var(--primarydark);
 }
+h1 {
+    text-align: center;
+    color: var(--primarylight);
+}
 .content {
     padding-top: 3rem;
+    padding-bottom: 6rem;
     max-width: 100vw;
     margin-left: auto;
     margin-right: auto;
@@ -19,7 +25,7 @@ body {
     color: var(--primarylight);
 }
 .summary {
-    text-align: center;
+    text-align: left;
     color: var(--primarylight);
     max-width: 60%;
     display: flex;
@@ -34,6 +40,10 @@ body {
 }
 .redirect {
     margin: 2rem;
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+    justify-content: center;
 }
 .redirect h3 {
     text-align: center;
@@ -44,6 +54,8 @@ body {
     color: var(--secondarylight);
 }
 .redirect img {
+    margin-left: auto;
+    margin-right: auto;
     height: 30vh;
     width: 30vh;
     object-fit: cover;
@@ -58,4 +70,10 @@ body {
     --primarydark:#363062;
     --secondarylight:#827397;
     --secondarydark:#4D4C7D;
+}
+
+@media only screen and (max-width: 600px) {
+    .summary {
+        max-width: 100%;
+    }
 }

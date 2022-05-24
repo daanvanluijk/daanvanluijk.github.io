@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>What About Hedgehogs?</title>
     <link rel="stylesheet" href="../../Stylesheets/General.css">
     <link rel="stylesheet" href="../../Stylesheets/Navbar.css">
     <link rel="stylesheet" href="../Stylesheets/General.css">
-    <script defer src="/JS/RandomColors.js"></script>
+    <script defer id="colorscript" color="gameboy" src="/JS/RandomColors.js"></script>
+    <script defer src="/JS/UpdateCache.js"></script>
+    <script defer src="../../JS/OverrideIFrame.js"></script>
 </head>
 <body>
 <div class="navsHolder">
@@ -25,9 +28,47 @@
 <div class="content">
     <div class="summary">
         <h1>What About Hedgehogs?</h1>
-        <p>"What About Hedgehogs?" was de masterthesis van Ewout De Vos voor zijn opleiding aan LUCA School of Arts.<br>
-            Hij
+        <p>"What About Hedgehogs?" was de masterthesis van Ewout De Vos voor zijn opleiding aan LUCA School of Arts.
+            Ik moest gelijktijdig een bachelorproef maken aan de PXL-Music en dit was de perfecte kans om samen te
+            werken. <br><br>
+            Zo heb ik voor mijn bachelorproef de game van audio voorzien en zelf de audiosystemen geprogrammeerd. <br>
+            Ook legde mijn bachelorproef de nadruk op generatieve muziek, muziek die deels door de computer wordt
+            gegenereerd op basis van de gameplay.
+            Zo zijn er een aantal plaatsen waar de muziek veranderd op basis van de afstand tot een object (zoals een
+            kwaadaardige hond).<br><br>
+            De muziek in het algemeen verandert van zone tot zone door middel van collision boxes.
+            Tussen alle zones zijn collisions geplaatst die in de muziek de juiste zone triggert.
+            Dankzij de audio effects heb ik veel bijgeleerd over omgaan met iemand anders codebase. Ik heb geprobeerd om
+            de audio code apart te houden om niet in de weg te lopen van Ewout, maar soms is dit uiteraard
+            onvermijdelijk. De code voor de voetstappen kon bijvoorbeeld volledig apart gehouden worden, het enige wat
+            deze code doet is namelijk een raycast uitsturen naar de grond en op basis daarvan speelt het juiste
+            voetstapgeluid. Voor de eetgeluidjes bijvoorbeeld moest ik wel in de code van Ewout duiken.
         </p>
+    </div>
+    <div class="gamescreenshots">
+        <h1>-Screenshots-</h1>
+        <div class="gamescreenshotsholder">
+            <img src="../../Assets/Screenshots/WHAT%20ABOUT%20HEDGEHOGS%201.jpg"
+                 alt="Screenshot van een boot met kanonnen"/>
+            <img src="../../Assets/Screenshots/WHAT%20ABOUT%20HEDGEHOGS%202.jpg"
+                 alt="Screenshot van een boot met kanonnen"/>
+            <img src="../../Assets/Screenshots/WHAT%20ABOUT%20HEDGEHOGS%203.jpg"
+                 alt="Screenshot van een boot met kanonnen"/>
+        </div>
+    </div>
+    <div class="gameplayvideo">
+        <h1>-Videos-</h1>
+        <iframe width="800px" height="450px" src="https://www.youtube.com/embed/S0FvWB9eJCk"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </div>
+    <div class="gamelink">
+        <h1>-Game Link-</h1>
+        <iframe class="iFramesToOverride" height="167" frameborder="0" src="https://itch.io/embed/1088549" width="552">
+            <a href="https://endlessmc.itch.io/what-about-hedgehogs">What About Hedgehogs? by EndlessMc</a>
+        </iframe>
     </div>
 </div>
 </body>

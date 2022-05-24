@@ -1,32 +1,44 @@
-[
-  {
-    "primarylight" : "#E9D5DA",
-    "primarydark" : "#363062",
-    "secondarylight" : "#827397",
-    "secondarydark" : "#4D4C7D"
+{
+  "donkerblauw": {
+    "primarylight": "#E9D5DA",
+    "primarydark": "#363062",
+    "secondarylight": "#827397",
+    "secondarydark": "#4D4C7D"
   },
-  {
-    "primarylight" : "#F6E7D8",
-    "primarydark" : "#874356",
-    "secondarylight" : "#F68989",
-    "secondarydark" : "#C65D7B"
+  "dofrood": {
+    "primarylight": "#F6E7D8",
+    "primarydark": "#874356",
+    "secondarylight": "#F68989",
+    "secondarydark": "#C65D7B"
   },
-  {
-    "primarylight" : "#FCECDD",
-    "primarydark" : "#FF6701",
-    "secondarylight" : "#FFC288",
-    "secondarydark" : "#FEA82F"
+  "fanta": {
+    "primarylight": "#FCECDD",
+    "primarydark": "#FF6701",
+    "secondarylight": "#FFC288",
+    "secondarydark": "#FEA82F"
   },
-  {
-    "primarylight" : "#D8E9A8",
-    "primarydark" : "#191A19",
-    "secondarylight" : "#4E9F3D",
-    "secondarydark" : "#1E5128"
+  "gameboy": {
+    "primarylight": "#D8E9A8",
+    "primarydark": "#191A19",
+    "secondarylight": "#4E9F3D",
+    "secondarydark": "#1E5128"
   },
-  {
-    "primarylight" : "#FADCAC",
-    "primarydark" : "#065446",
-    "secondarylight" : "#158467",
-    "secondarydark" : "#197163"
+  "turqoise": {
+    "primarylight": "#FADCAC",
+    "primarydark": "#065446",
+    "secondarylight": "#158467",
+    "secondarydark": "#197163"
+  },
+  "herfst": {
+    "primarylight": "#F9E4D4",
+    "primarydark": "#470D21",
+    "secondarylight": "#D67D3E",
+    "secondarydark": "#9C0F48"
+  },
+  "winter": {
+    "primarylight": "#E7E0C9",
+    "primarydark": "#11324D",
+    "secondarylight": "#C1CFC0",
+    "secondarydark": "#6B7AA1"
   }
-]
+}

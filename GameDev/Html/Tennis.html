@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Tennis??</title>
     <link rel="stylesheet" href="../../Stylesheets/General.css">
     <link rel="stylesheet" href="../../Stylesheets/Navbar.css">
     <link rel="stylesheet" href="../Stylesheets/General.css">
-    <script defer src="/JS/RandomColors.js"></script>
+    <script defer id="colorscript" color="winter" src="/JS/RandomColors.js"></script>
+    <script defer src="/JS/UpdateCache.js"></script>
 </head>
 <body>
 <div class="navsHolder">
@@ -25,39 +27,39 @@
 <div class="content">
     <div class="summary">
         <h1>Tennis??</h1>
-        <p>Dit project begon als een first person shooter project.<br>
+        <p>Dit project begon als een first person shooter project.
             Het idee was om de nadruk te leggen op het ontwijken van de kogels en er een soort first person bullet hell
-            game van te maken.<br>
+            game van te maken.
             Ik liep toen tegen een struikelblok op waarbij de speler zich te makkelijk weg van het gevaar kon
-            houden.<br>
-            Het idee is toen ontstaan om de kogels te vervangen door tennisballen en de speler een tennisraket te geven.<br>
-            Hierdoor moet de speler zich verplicht in de gevarenzone begeven om damage te doen.<br>
-            <br>
-            In dit project wordt gebruik gemaakt van finite state machines om de enemmy ai aan te sturen. <br>
-            Zo is de boot-vijand opgedeeld in twee grote fases en dus states. In de eerste fase zijn er twee states:<br>
-            Eerst schiet de boot een aantal seconden lang kanonskogels/tennisballen richting de speler. <br>
-            Wanneer de tijd op is, gaat de boot over naar het schieten van één bom. <br>
-            Zodra dat gebeurt gaat het automatisch terug over naar de eerste staat. <br>
-            <br>
-            De AI van de rode vijanden is gebaseerd op afstand en zichtbaarheid van de speler. <br>
-            De melee enemies hebben drie states: patrouilleren, achtervolgen en aanvallen. <br>
-            Tijdens het patrouilleren gebruikt de AI A* pathfinding om een pad van waypoints te volgen. <br>
-            De andere states worden geactiveerd op basis van afstand <br>
-            Voor de ranged AI is er een andere state dan het achtervolgen. Deze state heet: "repositioneren". <br>
+            houden.
+            Het idee is toen ontstaan om de kogels te vervangen door tennisballen en de speler een tennisraket te geven.
+            Hierdoor moet de speler zich verplicht in de gevarenzone begeven om damage te doen.
+            <br><br>
+            In dit project wordt gebruik gemaakt van finite state machines om de enemy ai aan te sturen.
+            Zo is de boot-vijand opgedeeld in twee grote fases en dus states. In de eerste fase zijn er twee states:
+            Eerst schiet de boot een aantal seconden lang kanonskogels/tennisballen richting de speler.
+            Wanneer de tijd op is, gaat de boot over naar het schieten van één bom.
+            Zodra dat gebeurt gaat het automatisch terug over naar de eerste staat.
+            <br><br>
+            De AI van de rode vijanden is gebaseerd op afstand en zichtbaarheid van de speler.
+            De melee enemies hebben drie states: patrouilleren, achtervolgen en aanvallen.
+            Tijdens het patrouilleren gebruikt de AI A* pathfinding om een pad van waypoints te volgen.
+            De andere states worden geactiveerd op basis van afstand.
+            Voor de ranged AI is er een andere state dan het achtervolgen. Deze state heet: "repositioneren".
             Hier gaat de AI de dichtstbijzijnde plaats zoeken waar de speler in het zicht is en de afstand niet buiten
-            een bepaalde lengte valt.<br>
+            een bepaalde lengte valt.
         </p>
     </div>
     <div class="gamescreenshots">
         <h1>-Screenshots-</h1>
         <div class="gamescreenshotsholder">
-            <img src="../../Assets/Screenshots/TENNIS GAME BOOT.png" height="728" width="870"
+            <img src="../../Assets/Screenshots/TENNIS GAME BOOT.png"
                  alt="Screenshot van een boot met kanonnen"/>
-            <img src="../../Assets/Screenshots/TENNIS%20GAME%20BOOT%20SCENE%201.png" height="728" width="870"
+            <img src="../../Assets/Screenshots/TENNIS%20GAME%20BOOT%20SCENE%201.png"
                  alt="Screenshot van een boot met kanonnen"/>
-            <img src="../../Assets/Screenshots/TENNIS%20GAME%20BOOT%20SCENE%202.png" height="728" width="870"
+            <img src="../../Assets/Screenshots/TENNIS%20GAME%20BOOT%20SCENE%202.png"
                  alt="Screenshot van een boot met kanonnen"/>
-            <img src="../../Assets/Screenshots/TENNIS%20GAME%20ENEMIES.png" height="728" width="870"
+            <img src="../../Assets/Screenshots/TENNIS%20GAME%20ENEMIES.png"
                  alt="Screenshot van een boot met kanonnen"/>
         </div>
     </div>
