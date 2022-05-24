@@ -11,12 +11,6 @@
     "secondarylight": "#F68989",
     "secondarydark": "#C65D7B"
   },
-  "fanta": {
-    "primarylight": "#FCECDD",
-    "primarydark": "#FF6701",
-    "secondarylight": "#FFC288",
-    "secondarydark": "#FEA82F"
-  },
   "gameboy": {
     "primarylight": "#D8E9A8",
     "primarydark": "#191A19",

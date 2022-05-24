@@ -1,6 +1,6 @@
 html {
     margin: 0;
-    font-family: Arial;
+    font-family: SansSerif sans-serif;
 }
 body {
     margin: 0;
@@ -9,6 +9,9 @@ body {
 h1 {
     text-align: center;
     color: var(--primarylight);
+}
+p {
+    line-height: 25px;
 }
 .content {
     padding-top: 3rem;
