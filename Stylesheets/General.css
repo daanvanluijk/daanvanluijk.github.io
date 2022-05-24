@@ -12,6 +12,7 @@ h1 {
 }
 p {
     line-height: 25px;
+    font-size: 20px;
 }
 .content {
     padding-top: 3rem;
@@ -30,7 +31,8 @@ p {
 .summary {
     text-align: left;
     color: var(--primarylight);
-    max-width: 60%;
+    max-width: 50rem;
+    margin: 1rem;
     display: flex;
     flex-flow: column;
     justify-content: center;
